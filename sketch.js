@@ -65,7 +65,7 @@ function draw() {
 
 
 
-if(keyDown("UP_ARROW")&& player.y >= windowHeight-400){
+if(keyDown("space")&& player.y >= windowHeight-300){
   player.y = player.y-30
 }
 
